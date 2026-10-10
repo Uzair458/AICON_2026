@@ -1,0 +1,184 @@
+{
+  "csv": "C:\\Users\\mirza\\Desktop\\fraud-triage-fixed\\fraud-triage\\data\\PS_20174392719_1491204439457_log.csv",
+  "csv_size": 493534783,
+  "csv_mtime": 1791612470,
+  "model": "495501-fc9e73af0a",
+  "cache_version": 3,
+  "train_cutoff": 500,
+  "flags": {
+    "origin_zeroed": "old>0&new==0",
+    "destination_zeroed": "old>0&new==0",
+    "origin_balance_zero": "old==0",
+    "destination_balance_zero": "old==0"
+  },
+  "calibration_ap": 0.999266378808388,
+  "calibration": [
+    {
+      "flags": {
+        "origin_zeroed": "old>0&new==0",
+        "destination_zeroed": "old>0&new==0",
+        "origin_balance_zero": "old==0",
+        "destination_balance_zero": "old==0"
+      },
+      "train_ap": 0.999266378808388
+    },
+    {
+      "flags": {
+        "origin_zeroed": "old>0&new==0",
+        "destination_zeroed": "old>0&new==0",
+        "origin_balance_zero": "old==0",
+        "destination_balance_zero": "old==0&new==0"
+      },
+      "train_ap": 0.9992632338269143
+    },
+    {
+      "flags": {
+        "origin_zeroed": "old>0&new==0",
+        "destination_zeroed": "old>0&new==0",
+        "origin_balance_zero": "old==0&new==0",
+        "destination_balance_zero": "old==0"
+      },
+      "train_ap": 0.999266378808388
+    },
+    {
+      "flags": {
+        "origin_zeroed": "old>0&new==0",
+        "destination_zeroed": "old>0&new==0",
+        "origin_balance_zero": "old==0&new==0",
+        "destination_balance_zero": "old==0&new==0"
+      },
+      "train_ap": 0.9992632338269143
+    },
+    {
+      "flags": {
+        "origin_zeroed": "old>0&new==0",
+        "destination_zeroed": "new==0",
+        "origin_balance_zero": "old==0",
+        "destination_balance_zero": "old==0"
+      },
+      "train_ap": 0.9992660749875367
+    },
+    {
+      "flags": {
+        "origin_zeroed": "old>0&new==0",
+        "destination_zeroed": "new==0",
+        "origin_balance_zero": "old==0",
+        "destination_balance_zero": "old==0&new==0"
+      },
+      "train_ap": 0.999262930006063
+    },
+    {
+      "flags": {
+        "origin_zeroed": "old>0&new==0",
+        "destination_zeroed": "new==0",
+        "origin_balance_zero": "old==0&new==0",
+        "destination_balance_zero": "old==0"
+      },
+      "train_ap": 0.9992660749875367
+    },
+    {
+      "flags": {
+        "origin_zeroed": "old>0&new==0",
+        "destination_zeroed": "new==0",
+        "origin_balance_zero": "old==0&new==0",
+        "destination_balance_zero": "old==0&new==0"
+      },
+      "train_ap": 0.999262930006063
+    },
+    {
+      "flags": {
+        "origin_zeroed": "new==0",
+        "destination_zeroed": "old>0&new==0",
+        "origin_balance_zero": "old==0",
+        "destination_balance_zero": "old==0"
+      },
+      "train_ap": 0.9992660340726924
+    },
+    {
+      "flags": {
+        "origin_zeroed": "new==0",
+        "destination_zeroed": "old>0&new==0",
+        "origin_balance_zero": "old==0",
+        "destination_balance_zero": "old==0&new==0"
+      },
+      "train_ap": 0.9992633762099012
+    },
+    {
+      "flags": {
+        "origin_zeroed": "new==0",
+        "destination_zeroed": "old>0&new==0",
+        "origin_balance_zero": "old==0&new==0",
+        "destination_balance_zero": "old==0"
+      },
+      "train_ap": 0.9992660340726924
+    },
+    {
+      "flags": {
+        "origin_zeroed": "new==0",
+        "destination_zeroed": "old>0&new==0",
+        "origin_balance_zero": "old==0&new==0",
+        "destination_balance_zero": "old==0&new==0"
+      },
+      "train_ap": 0.9992633762099012
+    },
+    {
+      "flags": {
+        "origin_zeroed": "new==0",
+        "destination_zeroed": "new==0",
+        "origin_balance_zero": "old==0",
+        "destination_balance_zero": "old==0"
+      },
+      "train_ap": 0.9992656512016078
+    },
+    {
+      "flags": {
+        "origin_zeroed": "new==0",
+        "destination_zeroed": "new==0",
+        "origin_balance_zero": "old==0",
+        "destination_balance_zero": "old==0&new==0"
+      },
+      "train_ap": 0.9992629933388166
+    },
+    {
+      "flags": {
+        "origin_zeroed": "new==0",
+        "destination_zeroed": "new==0",
+        "origin_balance_zero": "old==0&new==0",
+        "destination_balance_zero": "old==0"
+      },
+      "train_ap": 0.9992656512016078
+    },
+    {
+      "flags": {
+        "origin_zeroed": "new==0",
+        "destination_zeroed": "new==0",
+        "origin_balance_zero": "old==0&new==0",
+        "destination_balance_zero": "old==0&new==0"
+      },
+      "train_ap": 0.9992629933388166
+    }
+  ],
+  "eval_rows": 124630,
+  "eval_fraud": 2652,
+  "total_rows": 6362620,
+  "best_iteration": 143,
+  "importance": {
+    "amount_to_origin_balance": 0.41403366973129146,
+    "newbalanceOrig": 0.22373879650962397,
+    "origin_zeroed": 0.19907036043804663,
+    "origin_balance_delta": 0.07176297297178671,
+    "oldbalanceOrg": 0.03338051293907992,
+    "amount": 0.015933156142747897,
+    "log_amount": 0.013930248291730483,
+    "newbalanceDest": 0.011019050276783647,
+    "destination_balance_zero": 0.00482135336846496,
+    "amount_to_destination_balance": 0.0047587396570314775,
+    "destination_balance_delta": 0.001816442285526906,
+    "is_transfer": 0.0015783348222625105,
+    "origin_balance_zero": 0.0015573339655673795,
+    "oldbalanceDest": 0.001338969418685631,
+    "step": 0.0009327469956696689,
+    "destination_zeroed": 0.0003273121857007119
+  },
+  "built_at": "2026-10-10 17:42:10"
+}
