@@ -1,0 +1,3 @@
+Copy the PaySim CSV into this folder (or into the main fraud-triage folder).
+The file is usually named PS_20174392719_1491204439457_log.csv
+Download: https://www.kaggle.com/datasets/ealaxi/paysim1
